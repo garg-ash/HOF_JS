@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOF</title>
+</head>
+
+<body>
+
+    <script>
+
+        //ques.1 - add a number in this array and create new array
+        // let arr1 = [1,2,3,4,5,6,7,8]
+        // let a = prompt('Enter the Number')
+        // newArr1 = arr1.push(a)
+        // document.write(arr1)
+
+
+
+        //ques.2 add number in given array until adding 0
+        //  let arr2 = [1,2,3,4,5,6,7,8]
+        //  let b;
+        //  do
+        //  {
+        //     b = prompt('Enter a number')
+        //     newArr2 = arr2.push(b)
+        // }
+        // while(a!=0);
+        // documnet.write(arr2)
+
+
+        //ques 3 - filter for numbers divisible from 10 in a given array.
+
+        // let arr3 = [10, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+
+        // let newArr3 = arr3.filter(function (divide) {
+        //     return divide % 10 === 0
+        // }
+        // )
+        // console.log(newArr3)
+
+        //ques-4 - find square of a given array
+
+        // let arr4 = [10, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+        // let newArr4 = arr4.map(function (square) {
+        //     return square * square
+        // })
+        // console.log(newArr4)
+
+        // ques-5 use reduce method to multiply first n number
+
+        // let arr5 = [1, 2, 3, 4]
+        // let newwrr5 = arr5.reduce(function (x1, x2) {
+        //     return x1 * x2
+        // })
+        // console.log(newwrr5)
+
+
+
+        // let arr6 = [2,4,5,8,9,10,14,15,77,88,69]
+
+        // // let producteven = 1;
+
+        // let even = arr6.reduce(x1,x2) =>
+        //  {
+        //     console.log(product)
+        // }
+
+
+        const names = ['Dev', 'Hansha', 'Ashish', 'Rajesh'];
+      
+        // print names according to thier names length
+        names.map(namval => 
+        {
+            for (let i = 0; i < namval.length; i++) 
+            {
+                console.log(namval);
+            }
+        });     
+
+
+        // Ques - Transfer those names whose lenght is even into an new array
+        names.filter((x)=>
+        {
+            if(x.length%2===0)
+            console.log(x)
+        })
+        
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
